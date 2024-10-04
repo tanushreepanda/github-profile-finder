@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+    width: 40%;
+    height: 30px;
+    border: 1px solid black;
+    border-right: none;
+}
+button {
+    height: 33px;
+    width: 26px;
+    border: 1px solid black;
+    border-left: none;
+    background: black;
+    color: white;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ffcdcd;
+}
+.container {
+    height: 50vh;
+    width: 50vw;
+    margin: 14%;
+}
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+}
